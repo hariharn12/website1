@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+
+}
+/* this is for body content*/
+.body-content {
+    display: flex;
+    background: #FFF;
+    height: 100vh;
+}
+
+.main {
+    position: relative;
+}
+
+.main img {
+    width: 750px;
+    height: 100%;
+
+}
+
+.main-text {
+    position: absolute;
+    color: #fff;
+    top: 20px;
+    margin-left: 80px;
+    margin-top: 40px;
+    width: 458.017px;
+    height: 35.9px;
+
+}
+
+.side-content>h1 {
+
+    color: #333;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20%;
+    margin-left: 80px;
+}
+
+.side-content>p {
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #3E3E3E;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+
+}
+/* this is forms section*/
+.label {
+    color: rgba(62, 62, 62, 0.80);
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 68px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.input {
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 480px;
+    height: 60px;
+    flex-shrink: 0;
+    padding: 20px;
+
+}
+  /* This is a fotter section */
+
+.fotter-container {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 77px;
+    justify-content: space-between;
+    color: rgba(62, 62, 62, 0.80);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.password {
+    color: #EF3024;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 480px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #DFE3E8;
+    background: #EF3024;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+
+
+}
+
+    
